@@ -4,7 +4,7 @@
 
 写项目一般 在vs中创建三个文件分别为：这里拿string项目做例
 $$
-存储 函数声明：string.h  函数的实现部分：string.cpp 项目测试文件：test.cpp
+存储 函数声明：string.h  函数的实现部分：string.cpp 项目测试文件：test.cpp
 $$
 一般分为这三个文件、
 
