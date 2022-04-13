@@ -435,9 +435,9 @@ void push_back(const TYPE &val );
 
 **区别** 
 
-reserve 函数为当前vector预留至少共容纳size个元素的空间
+reserve 函数为当前vector预留至少共容纳size个元素的空间 他改变的是capacity的值
 
-resize 函数改变当前vector的大小为size,且对新创建的元素赋值 为val 如果没有val就赋值为缺省值
+resize 函数改变当前vector的大小为size,且对新创建的元素赋值 为val 如果没有val就赋值为缺省值 改变size和capacity的值
 
 ![image-20220412225024549](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220412225024549.png)
 
